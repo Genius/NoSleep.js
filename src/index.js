@@ -14,6 +14,7 @@ class NoSleep {
       // Set up no sleep video element
       this.noSleepVideo = document.createElement('video')
 
+      this.noSleepVideo.setAttribute('muted', '')
       this.noSleepVideo.setAttribute('playsinline', '')
       this.noSleepVideo.setAttribute('src', mediaFile)
 
